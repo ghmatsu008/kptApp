@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  KptTime
 //
-//  Created by 松尾 慎治 on 2016/04/13.
-//  Copyright © 2016年 smartdt. All rights reserved.
+//  Created by matsu on 2016/04/13.
+//  Copyright © 2016年 testdt. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -51,7 +51,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "jp.smartdt.KptTime" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "jp.testdt.KptTime" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 

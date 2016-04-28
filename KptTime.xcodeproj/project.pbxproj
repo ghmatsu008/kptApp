@@ -189,7 +189,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = smartdt;
+				ORGANIZATIONNAME = testdt;
 				TargetAttributes = {
 					145EA7FC1CBE2FAB00B4106F = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -407,7 +407,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KptTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.smartdt.KptTimeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.testdt.KptTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KptTime.app/KptTime";
 			};
@@ -419,7 +419,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KptTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.smartdt.KptTimeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.testdt.KptTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KptTime.app/KptTime";
 			};
